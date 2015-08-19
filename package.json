@@ -1,0 +1,30 @@
+{
+  "name": "facebook-page-stats",
+  "version": "1.0.0",
+  "description": "facebook page fan stats by country name",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts"
+  },
+  "author": "Yu Jin <adamlyj89@gmail.com> (https://github.com/yujinlim)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "fbgraph": "^1.0.0",
+    "iso-3166-2": "^0.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yujinlim/facebook-page-stats"
+  },
+  "bugs": {
+    "url": "https://github.com/yujinlim/facebook-page-stats/issues"
+  },
+  "homepage": "https://github.com/yujinlim/facebook-page-stats",
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
