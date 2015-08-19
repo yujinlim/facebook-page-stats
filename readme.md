@@ -2,6 +2,10 @@
 > get facebook page fans stats by country
 
 ## Usage
+```
+npm i --save facebook-page-stats
+```
+
 ```javascript
 var stats = require('facebook-page-stats');
 
