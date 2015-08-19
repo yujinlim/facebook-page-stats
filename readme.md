@@ -1,4 +1,4 @@
-# Facebook Page Fan Stats
+# Facebook Page Fan Stats [![Build Status](https://travis-ci.org/yujinlim/facebook-page-stats.svg)](https://travis-ci.org/yujinlim/facebook-page-stats)
 > get facebook page fans stats by country
 
 ## Usage
