@@ -4,7 +4,7 @@ var assert = require('assert');
 
 describe('#facebook-page-stats', function() {
   var stats,
-    token = 'CAACEdEose0cBAAaKUcVhAocJBZBYOuWHSRvFzFSxKKkJyzgYpnX9YHmKclQXmm12V8yPiBcgA3ZB1EczO2uZCxq9f2QrZCNaxIirLpi02AqqnZCmvvWSC1qqvimBEWE0j0lDEq5ZClsb12U9zqGGyhJmZC5ZCf8Mssd6J8IFMZCywCJrDoxoZCPRJdKQtibbPaWk3sLbqFZA9SmCwZDZD',
+    token = 'CAACEdEose0cBAJtyK28QzxbQZAujrysHZAtB476LMEqyHbJgWnpYBhRuCb1qwmLW0bv0ZCe2Vkp8PITPZAYigimPK9ceVZBul2Du1PJ1GyVGRYZCkoNgIITeZAdddS99ZA8nCkuuK9tmZB9euevsyZAZCqH3lq7X0mSeZAiyRBjYwsy8G4GAAEQIA8MOsXUXJcAUh4SKgLrEcqCWJgZDZD',
     pageId = 'Engineering'; // facebook page stats
 
   before(function() {

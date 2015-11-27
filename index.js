@@ -11,12 +11,9 @@ module.exports = function(token, pageId) {
   graph.setAccessToken(token);
 
   return new Promise(function(resolve, reject) {
-    var count = 0;
-
     function handleResponse(error, response) {
       if (error) {
-        reject(error);
-        return;
+        return reject(error);
       }
 
       if (response.data && response.data.length) {
@@ -34,13 +31,8 @@ module.exports = function(token, pageId) {
         }
 
         return resolve(result);
-      } else {
-        if (count < 10) {
-          graph.get(response.paging.previous, handleResponse);
-        } else {
-          reject(new Error('too many tries'));
-        }
       }
+      return reject('no data found');
     }
 
     graph.get(pageId + '/insights/page_fans_country/lifetime', handleResponse);
