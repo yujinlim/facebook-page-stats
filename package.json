@@ -1,6 +1,6 @@
 {
   "name": "facebook-page-stats",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "facebook page fan stats by country name",
   "main": "index.js",
   "scripts": {
